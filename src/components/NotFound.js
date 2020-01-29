@@ -4,9 +4,9 @@ import CardTitle from "reactstrap/es/CardTitle";
 
 const NotFound = ({ history }) => (
   <Card>
-    <CardHeader>404</CardHeader>
+    <CardHeader>404 Page Not Found</CardHeader>
     <CardBody>
-      <CardTitle>Page Not Found</CardTitle>
+      <CardTitle>Do not worry we will take you back.</CardTitle>
       <Button size="small" color="primary" onClick={() => history.push("/")}>
         Go Home
       </Button>
